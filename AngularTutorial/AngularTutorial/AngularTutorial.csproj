@@ -96,12 +96,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.component.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="package.json" />
     <Content Include="tsconfig.json" />
+    <None Include="Properties\PublishProfiles\angular.pubxml" />
+    <None Include="Properties\PublishProfiles\stangulartest.pubxml" />
+    <None Include="Properties\PublishProfiles\stworektest.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
